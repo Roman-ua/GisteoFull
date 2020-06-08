@@ -1,0 +1,59 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?pk10ew');
+    src:  url('../fonts/icomoon.eot?pk10ew#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?pk10ew') format('truetype'),
+      url('../fonts/icomoon.woff?pk10ew') format('woff'),
+      url('../fonts/icomoon.svg?pk10ew#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-clock-o:before {
+    content: "\f017";
+  }
+  .icon-lock:before {
+    content: "\f023";
+  }
+  .icon-flag:before {
+    content: "\f024";
+  }
+  .icon-globe:before {
+    content: "\f0ac";
+  }
+  .icon-magic:before {
+    content: "\f0d0";
+  }
+  .icon-bolt:before {
+    content: "\f0e7";
+  }
+  .icon-flash:before {
+    content: "\f0e7";
+  }
+  .icon-cubes:before {
+    content: "\f1b3";
+  }
+  .icon-sticky-note:before {
+    content: "\f249";
+  }
+  
